@@ -1,13 +1,21 @@
-```markdown
+
 # FIDOTRANSACTIONMGMT API Service
 
 ## Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Project Structure](#project-structure)
-- [Setup and Run Instructions](#setup-and-run-instructions)
-- [Design and Architectural Decisions](#design-and-architectural-decisions)
-- [Scaling Strategies and Trade-offs](#scaling-strategies-and-trade-offs)
+- [FIDOTRANSACTIONMGMT API Service](#fidotransactionmgmt-api-service)
+  - [Table of Contents](#table-of-contents)
+    - [Overview](#overview)
+    - [Features](#features)
+    - [Project Structure](#project-structure)
+    - [Setup and Run Instructions](#setup-and-run-instructions)
+      - [Prerequisites](#prerequisites)
+      - [Installation](#installation)
+    - [Design and Architectural Decisions](#design-and-architectural-decisions)
+    - [Scaling Strategies and Trade-offs](#scaling-strategies-and-trade-offs)
+      - [1. **Database Sharding**](#1-database-sharding)
+      - [2. **Task Queues**](#2-task-queues)
+      - [3. **API Rate Limiting and Load Balancing**](#3-api-rate-limiting-and-load-balancing)
+      - [4. **Monitoring and Alerting**](#4-monitoring-and-alerting)
 
 ---
 
@@ -146,4 +154,3 @@ To set up and run this project locally, follow these steps:
    - **Strategy**: Set up monitoring (e.g., Prometheus, Grafana) to identify bottlenecks and scale reactively.
    - **Trade-off**: Increases overhead but provides critical insights into application performance.
 
-```
